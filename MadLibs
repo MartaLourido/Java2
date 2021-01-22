@@ -1,0 +1,36 @@
+ Write a Mad Libs word game! Mad Libs have short stories with blank spaces that a player can fill in. The result is usually funny (or strange).
+ 
+ public class MadLibs {
+  /*
+  This program generates a mad libbed story.
+Author: Marta
+Date: 22/01/2021
+  */
+  	public static void main(String[] args){
+      
+      
+      String name1 = "Maria"; 
+      String name2 = "Manuel";
+      String adjective1 = "Nice";
+      String adjective2 = "Funny";
+      String adjective3 = "Beautiful";
+      String verb1 = "make";
+      String noun1 = "tree";
+      String noun2 = "car";
+      String noun3 = "computer";
+      String noun4 = "house";
+      String noun5 = "girl";
+      String noun6 = "window";
+      int number = 5;
+      String place1 = "Madrid";
+
+      //The template for the story
+      String story = "This morning "+name1+" woke up feeling "+adjective1+". 'It is going to be a "+adjective2+" day!' Outside, a bunch of "+noun1+"s were protesting to keep "+noun2+" in stores. They began to "+verb1+" to the rhythm of the "+noun3+", which made all the "+noun4+"s very "+adjective3+". Concerned, "+name1+" texted "+name2+", who flew "+name1+" to "+place1+" and dropped "+name1+" in a puddle of frozen "+noun5+". "+name1+" woke up in the year "+number+", in a world where "+noun6+"s ruled the world.";
+
+      System.out.println(story);
+    }       
+}
+
+
+/* Output
+This morning Maria woke up feeling Nice. 'It is going to be a Funny day!' Outside, a bunch of trees were protesting to keep car in stores. They began to make to the rhythm of the computer, which made all the houses very Beautiful. Concerned, Maria texted Manuel, who flew Maria to Madrid and dropped Maria in a puddle of frozen girl. Maria woke up in the year 5, in a world where windows ruled the world.*/
